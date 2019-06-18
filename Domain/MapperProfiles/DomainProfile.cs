@@ -25,7 +25,7 @@ namespace Domain.MapperProfiles
             CreateMap<School, SchoolDto>();
             CreateMap<SchoolDto, School>();
             CreateMap<GroupDto, Group>();
-            CreateMap<Group, Group>();
+            CreateMap<Group, GroupDto>();
 
         }
     }
